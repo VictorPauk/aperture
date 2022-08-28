@@ -63,6 +63,9 @@ header nav ul li:last-of-type a{
     height: 100vh;
     background-image:url("../images/background_image.png") ;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 .padding{
     padding-top:482px;
@@ -166,6 +169,18 @@ header nav ul li:last-of-type a{
     margin: auto;
     padding-top:42px;
 }
+.owl-carousel .item{
+    max-width:128px;
+    margin: auto;
+}
+.owl-dots .owl-dot span{
+   background: green;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 10px;
+}
 .main_help{
     padding-top: 113px;
     padding-bottom: 108px;
@@ -221,5 +236,35 @@ header nav ul li:last-of-type a{
     border-radius: 12px ;
     margin-right: 6px;
 }
-
+.portfolio{
+    background-image: url("../images/mountain.jpg");
+    min-height: 600px;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.portfolio .sub_container{
+    max-width: 298px;
+    margin-right: 62px;
+}
+.portfolio .sub_container h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.portfolio .sub_container p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
 
