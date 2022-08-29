@@ -173,10 +173,6 @@ header nav ul li:last-of-type a{
     max-width:128px;
     margin: auto;
 }
-.owl-theme .owl-dot span{
-    width: 15px !important;
-    height: 15px !important;
-}
 .main_help{
     padding-top: 113px;
     padding-bottom: 108px;
